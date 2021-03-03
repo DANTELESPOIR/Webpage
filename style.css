@@ -1,0 +1,41 @@
+.body
+{
+    background: linear-gradient(rgb(0, 67, 99), rgb(0, 146, 0));
+    background-attachment: scroll;
+    image-rendering:optimizeSpeed;
+    background-attachment: fixed;
+}
+
+.header
+{
+    text-align: center;
+    color:rgb(253, 253, 253);
+    font-family: 'Playfair Display', serif;
+    font-weight: 1000;
+    font-style: italic;
+    resize: both;
+}
+.header2
+{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: 'Playfair Display', serif;
+    font-weight: 1000;
+    font-style: italic;
+    font-variant-position:sub;
+    resize: both;
+}
+
+.link
+{
+    
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    text-align:center;
+    text-decoration: solid;
+    resize: both;
+}
+
