@@ -1,8 +1,6 @@
 .body
 {
     background: linear-gradient(rgb(0, 67, 99), rgb(0, 146, 0));
-    background-attachment: scroll;
-    image-rendering:optimizeSpeed;
     background-attachment: fixed;
 }
 
