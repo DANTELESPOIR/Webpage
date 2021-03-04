@@ -36,12 +36,16 @@
     text-decoration: solid;
     resize: both;
 }
-.volumetext
+.p
 {
+    
     font-size: 15px;
     color:rgb(255, 255, 255);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 1000;
     font-style: italic;
+    text-align:left;
     text-decoration: solid;
+    resize: both;
+    padding-left: 4em;
 }
