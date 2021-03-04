@@ -39,16 +39,19 @@
 .p
 {
     font-size: 15px;
-    color:rgb(255, 255, 255);
+    color:rgb(255, 174, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 1000;
     font-style: italic;
-    text-align:left;
+    text-align:center;
     text-decoration: solid;
     resize: both;
-    padding-left: 4em;
+
 }
 .video-frame
 {
-    padding-left: 24em;
+
+    display: flex;
+    justify-content: center;
+    
 }
