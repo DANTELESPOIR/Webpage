@@ -38,6 +38,7 @@
 }
 .p
 {
+    margin: auto;
     font-size: 15px;
     color:rgb(255, 174, 0);
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
