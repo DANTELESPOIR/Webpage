@@ -12,9 +12,34 @@
         <!--Css file link-->
         <link rel="stylesheet" type="text/css" href="style.css">
 
+    	<script type="text/javascript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
     </head>
     
-        <body class="bg" >
+        <body class="bg" onload="FP_preloadImgs(/*url*/'buttonCF.gif',/*url*/'buttonD0.gif')" >
 
             <!--I like to keep it clean-->
             
@@ -23,24 +48,31 @@
                 <h2 class="text"> On this page your have link's that will take you to all the different social media I am on&nbsp; </h2>
                     <div class="boxlink">
                     <!----------------------------------------------------------------------------------------------------------------------->
+                    
+                    
                     <a href="https://discord.gg/nu9THXsBAc"><p class="link">Discord channel (Kind of dead)</p></a>
             
                     <a  href="https://www.youtube.com/channel/UCu08_gRlzDhMmLfUJS3i5RA"><p class="link">YouTube Channel</p></a>
-                
-                    <a  href="https://twitter.com/FurryFr79465743"><p class="link">Twitter</p></a>
-            
-                    <a  href="https://steamcommunity.com/profiles/76561198812735013/"><p class="link">Steam Account</p></a>
+                    
+                	<a  href="https://steamcommunity.com/profiles/76561198812735013/"><p class="link">Steam Account</p></a>
+                	
+                    <a href="https://github.com/DANTELESPOIR"><p class="link">Git Hub Page</p></a> 
 
                     <a href="https://trello.com/b/YT9S3WnY/htmlcss-web-practice"><p class="link" >Trello Page</p></a>
+                    
+                    <a  href="https://twitter.com/FurryFr79465743"><p class="link">Twitter</p></a>
 
                     <a href="https://danlespoir.itch.io/"><p class="link">Itch.io</p></a>
-
-                    <a href="https://github.com/DANTELESPOIR"><p class="link">Git Hub Page</p></a>
+                    
+                    <a href="blog.html"><p class="link2">Blog </p></a>
+                    
+                    <a href="art.html"><p class="link2">Art </p></a>
+                    
                     <!------------------------------------------------------------------------------------------------------------------------>
                 </div>
                 <h2 class="text">If you have anything to tell me  DM me on discord</h2>
                 <h2 class="text">If i dont respond it may be due to me being offline for a few hours or day but I will be around</h2>
-            </div>
-            <h2 class="link"><a href="blog.html">Page 2</a></h2>
+  				
+           
         </body>
 </html>
