@@ -8,9 +8,7 @@
     font-weight: bolder;
     color: #ffffff;
     font-size: 30px;
-     text-align:center;
-
-
+    text-align:center;   
 }
 .link2
 {
@@ -20,8 +18,6 @@
     color:lime;
     font-size: 30px;
     text-align:center;
-
-
 }
 
 .text
@@ -64,4 +60,9 @@
     background-color: rgb(56, 55, 55);
     margin: 20px;
     border: 1px solid rgba(0, 0, 0, 0.3); 
+}
+.link:hover
+{
+    background-color: rgba(152, 240, 255, 0.199);
+    opacity: 1;
 }
