@@ -50,16 +50,24 @@
     background-position: center;
   
     margin: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
 }
 .game
 {
     background-color: rgb(56, 55, 55);
     margin: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.3); 
+    border: 2px solid rgba(0, 0, 0, 0.3); 
 }
 .link:hover
 {
-    background-color: rgba(167, 167, 167, 0.253);
+    background-color: rgba(167, 167, 167, 0.404);
     opacity: 1;
+}
+.art-gallery
+{
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    /*margin-left: 80px;*/
+
 }
