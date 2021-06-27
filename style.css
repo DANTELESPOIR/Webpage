@@ -45,12 +45,9 @@
 }
 .boxlink
 {
-    background-image: url('images/dead\ end\ colourd.png');
+    background-image: url(images/power\ bunny\ boi.png);
     background-size: cover;
     background-position: center;
-  
-    /* Or, use the background shortcut. */
-    background: url('images/dead\ end\ colourd.png') center/cover;
   
     margin: 20px;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -63,6 +60,6 @@
 }
 .link:hover
 {
-    background-color: rgba(152, 255, 152, 0.199);
+    background-color: rgba(167, 167, 167, 0.199);
     opacity: 1;
 }
