@@ -1,6 +1,8 @@
 ﻿.bg
 {
     background-color: rgb(21, 22, 24);
+    align-content: center;
+   
 }
 .link
 {
@@ -9,6 +11,7 @@
     color: #ffffff;
     font-size: 30px;
     text-align:center;   
+    align-content: center;
 }
 .text
 {
@@ -26,6 +29,8 @@
     font-weight:bolder;
     padding: 0.2em;
     color: white;
+    border: 6px solid white;
+    align-content: center;
 }
 .boxlink
 {
@@ -34,7 +39,9 @@
     background-position: center;
   
     margin: 20px;
-    border: 2px solid rgba(0, 0, 0, 0.3);
+    border: 6px solid rgb(255, 255, 255);
+
+    align-content: center;
 }
 .game
 {
