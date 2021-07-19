@@ -16,6 +16,12 @@
     text-align:right;   
     padding-right: 1%;
 }
+.link:hover
+{
+    background-color: rgba(177, 233, 255, 0.39);
+    opacity: 1;
+    color:rgb(0, 107, 139);
+}
 .text
 {
     clear: both;
@@ -46,9 +52,3 @@
     
 }
 
-.link:hover
-{
-    background-color: rgba(177, 233, 255, 0.39);
-    opacity: 1;
-    color:rgb(0, 107, 139);
-}
