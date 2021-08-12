@@ -1,1 +1,1 @@
-alert("Do you ever just want to try something \nbut end up not being able to.")
+alert(userLanguage());
