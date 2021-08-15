@@ -10,7 +10,7 @@ console.log( y - x);
 console.log( x * y);
 console.log( x / y);
 
-alert("Are you sure you want to go here :D");
+//alert("Are you sure you want to go here :D");
 
 
 
