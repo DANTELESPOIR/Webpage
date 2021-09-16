@@ -88,7 +88,16 @@
     border-radius: 2em;
     
 }
-
+.boxlink2
+{
+    background-color:rgba(0, 255, 234, 0.267);
+    background-repeat: no-repeat;
+    border: 6px solid hsla(0, 0%, 100%, 0.507);
+    align-content: center;
+    background-size: 100% 100%;
+    border-radius: 2em;
+    
+}
 
 
 
