@@ -1,12 +1,14 @@
 ﻿body
 {
-    background-image:url(images/105186.gif);
+    background-image:url(images/Mountain.jpg);
     background-blend-mode:normal;
     background-attachment: fixed;
     background-color: rgb(0, 0, 0);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    margin-left: 10%;
+    margin-right: 10%;
 
 }
 .link
@@ -32,15 +34,17 @@
 /*When the mouse hovers above the link there will be a background colour change around it and the text colour will change*/
 .link:hover
 {
-    background-color: rgba(118, 163, 161, 0.39);
+    background-color: rgba(0, 0, 0, 0.363);
     opacity: 1;
-    color:rgb(0, 255, 200);
+    color:rgb(255, 255, 255);
+    border-radius: 0.5em;
 }
 .link2:hover
 {
-    background-color: rgba(255, 247, 190, 0.185);
+    background-color: rgba(145, 145, 145, 0.185);
     opacity: 1;
-    color:rgb(229, 255, 0);
+    color:rgb(167, 167, 167);
+    border-radius: 0.2em;
 }
 .text
 {
@@ -75,14 +79,14 @@
     font-weight:bolder;
     padding: 0.2em;
     color:hsl(0, 0%, 100%);
-    border: 6px solid hsla(0, 0%, 100%, 0.507);
+    border: 6px solid hsl(0, 0%, 100%);
     align-content: center;
 }
 .boxlink
 {
     background-color:rgba(255, 255, 255, 0.061);
     background-repeat: no-repeat;
-    border: 6px solid hsla(0, 0%, 100%, 0.507);
+    border: 6px solid hsl(0, 0%, 100%);
     align-content: center;
     background-size: 100% 100%;
     border-radius: 2em;
@@ -90,7 +94,7 @@
 }
 .boxlink2
 {
-    background-color:rgba(0, 255, 234, 0.267);
+    background-color:rgba(105, 105, 105, 0.267);
     background-repeat: no-repeat;
     border: 6px solid hsla(0, 0%, 100%, 0.507);
     align-content: center;
