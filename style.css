@@ -80,6 +80,7 @@
     color:hsl(0, 0%, 100%);
     border: 6px solid hsl(0, 0%, 100%);
     align-content: center;
+    border-radius: 0.5em;
 }
 .boxlink
 {
@@ -88,7 +89,7 @@
     border: 6px solid hsl(0, 0%, 100%);
     align-content: center;
     background-size: 100% 100%;
-    border-radius: 2em;
+    border-radius: 0.5em;
     
 }
 .boxlink2
@@ -98,7 +99,7 @@
     border: 6px solid hsla(0, 0%, 100%, 0.507);
     align-content: center;
     background-size: 100% 100%;
-    border-radius: 2em;
+    border-radius: 0.5em;
     
 }
 
