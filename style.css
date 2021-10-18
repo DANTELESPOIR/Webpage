@@ -97,7 +97,7 @@
     
 }
 /* For Mobile */
-@media screen and (max-width: 540px) {
+@media (max-width: 540px) {
     .view {
         width: 400px;
         margin-left: 50%;
@@ -106,7 +106,7 @@
 }
 
 /* For Tablets */
-@media screen and (min-width: 540px) and (max-width: 780px) {
+@media (min-width: 540px) and (max-width: 780px) {
     .view {
         width: 600px;
         margin-left: 50%;
@@ -114,7 +114,7 @@
     }
 }
 /* For Mobile */
-@media screen and (max-width: 400px) {
+@media (max-width: 400px) {
     .view {
         width: 360px;
         margin-left: 50%;
