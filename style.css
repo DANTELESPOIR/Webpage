@@ -41,14 +41,14 @@ body::-webkit-scrollbar {
 	text-align:center;
 }
 /*When the mouse hovers above the link there will be a background colour change around it and the text colour will change*/
-.link:hover
+:hover.link
 {
     background-color: rgba(0, 0, 0, 0.363);
     opacity: 1;
     color:rgb(255, 255, 255);
     border-radius: 0.5em;
 }
-.link2:hover
+:hover.link2
 {
     background-color: rgba(145, 145, 145, 0.185);
     opacity: 1;
@@ -99,11 +99,10 @@ body::-webkit-scrollbar {
 {
     background-color:rgba(0, 0, 0, 0.473);
     background-repeat: no-repeat;
-    border: 3px solid hsl(58, 100%, 50%);
+    border: 3px solid hsl(0, 0%, 100%);
     align-content: center;
     background-size: 100% 100%;
-    border-radius: 0.5em;
-    
+    border-radius: 0.5em; 
 }
 
 /* For Mobile */
@@ -131,5 +130,3 @@ body::-webkit-scrollbar {
         margin-right: 50%;
     }
 }
-
-    
