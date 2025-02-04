@@ -2,4 +2,4 @@ THis webape was made a Very long time ago and has gone though quite a bit of cha
 
 If you want yo use it as a template go ahead I also written some stuff down if you need them 
 
-Thanks for visiting my site
+Thanks for visiting my site  
