@@ -6,6 +6,7 @@
     min-height: 100%;
     z-index: -1;
 }
+/* this is to make the video fullscreen and all text to be above it but the Background (as a backup)*/
 
 body
 {
